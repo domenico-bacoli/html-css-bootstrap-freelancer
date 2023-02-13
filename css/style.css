@@ -1,0 +1,64 @@
+
+.container-centered{
+    max-width: 800px;
+}
+/* COMMON */
+
+nav{
+    background-color: #2C3E50;
+    height: 100px;
+}
+
+.navbar-brand,
+.navbar-collapse a{
+    color: white;
+}
+
+.navbar-collapse a{
+    font-size: 0.8em;
+}
+
+header{
+    background-color: #1ABC9C;
+}
+
+header h2,
+li{
+    color: white;
+}
+
+.portfolio-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2C3E50;
+}
+
+.header-list{
+    list-style-type: none;
+}
+
+.header-list li{
+    font-size: 0.8em;
+}
+
+.hr-line{
+    width: 80px;
+    background-color: white;
+    height: 2px;
+}
+
+header .container .row .col i{
+    color: white;
+}
+
+main .hr-line{
+    background-color: black;
+}
+
+main .cards{
+    background-color: red;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
