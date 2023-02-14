@@ -1,128 +1,54 @@
-.container-centered{
+.__container-centered{
     max-width: 800px;
 }
 
-.about-container-centered{
-    max-width: 700px;
-}
-
-.hr-line,
-.about .hr-line{
+.rule-left,
+.rule-right{
     width: 100px;
     background-color: white;
     height: 3px;
 }
 
-main .hr-line{
-    background-color: black;
-}
-/* COMMON */
-
-/* start navbar */
-nav{
+.__nav{
     background-color: #2C3E50;
-    height: 100px;
 }
 
-.navbar-brand,
-.navbar-collapse a{
-    color: white;
-}
-
-.navbar-collapse a{
+.nav-link{
     font-size: 0.8em;
 }
-/* end navbar */
 
-/* start header */
-header{
+.__green-back{
     background-color: #1ABC9C;
-}
-
-header h2,
-li{
-    color: white;
-}
-
-.portfolio-image{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #2C3E50;
-}
-
-.header-list{
-    list-style-type: none;
-}
-
-.header-list li{
-    font-size: 0.9em;
-}
-
-/* end header */
-
-/* start section portfolio  */
-.cards .card-image{
-    background-color: #2C3E50;
-    height: 150px;
-}
-/* end section portfolio  */
-
-/* start section about */
-.about{
-    background-color: #1ABC9C;
-}
-
-.about p{
-    font-size: 0.8em;
 }
 
 .about button{
-    border: 1px solid white;
-    background-color: #1ABC9C;
-    color: white;
-    border-radius: 6px;
-    font-size: 0.7em;
-    font-weight: bold;
-    padding: 8px 12px;
-}
-
-.about button i{
-    font-size: 1.2em;
-    padding-right: 4px;
-}
-/* end section about */
-
-/* start section contact me */
-#exampleFormControlInput1,
-#exampleFormControlTextarea1{
-    border-left: transparent;
-    border-right: 0;
-    border-radius: 0;
     font-size: 0.8em;
 }
 
 .contact-me button{
-    width: 60px;
-    height: 40px;
+    background-color: #1ABC9C;
+    font-size: 0.8em;
 }
 
-.message-form{
-    border-top: transparent
+.__green-color{
+    color: #1ABC9C;
 }
-/* end section contact me */
 
-footer{
+.address{
+    font-size: 0.8em;
+}
+
+.footer-top{
     background-color: #3A546D;
 }
 
-.footer-item{
-    height: 120px;
-    background-color: #1ABC9C;
+footer .btn-outline-light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .footer-bottom{
-    height: 80px;
     background-color: #2C3E50;
     font-size: 0.6em;
 }
