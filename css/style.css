@@ -9,7 +9,7 @@
 
 .rule-left,
 .rule-right{
-    width: 10%;
+    width: 100px;
     border-radius: 4px;
     background-color: white;
     height: 3px;
