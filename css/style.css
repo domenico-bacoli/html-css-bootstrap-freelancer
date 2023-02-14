@@ -2,18 +2,30 @@
     max-width: 800px;
 }
 
+.rule-star i{
+    font-size: 1.4em;
+    color: #2C3E50;
+}
+
 .rule-left,
 .rule-right{
-    width: 100px;
+    width: 10%;
+    border-radius: 4px;
     background-color: white;
     height: 3px;
+}
+
+.__dark{
+    background-color: #2C3E50;
 }
 
 .__nav{
     background-color: #2C3E50;
 }
 
-.nav-link{
+.nav-link,
+.about button,
+.address{
     font-size: 0.8em;
 }
 
@@ -21,8 +33,8 @@
     background-color: #1ABC9C;
 }
 
-.about button{
-    font-size: 0.8em;
+.about p{
+    font-size: 0.9em;
 }
 
 .contact-me button{
@@ -30,12 +42,14 @@
     font-size: 0.8em;
 }
 
-.__green-color{
-    color: #1ABC9C;
+.portfolio h2,
+.contact-me h2,
+.form-control::placeholder {
+    color: #333333;
 }
 
-.address{
-    font-size: 0.8em;
+.__green-color{
+    color: #1ABC9C;
 }
 
 .footer-top{
@@ -50,6 +64,6 @@ footer .btn-outline-light {
 
 .footer-bottom{
     background-color: #2C3E50;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
